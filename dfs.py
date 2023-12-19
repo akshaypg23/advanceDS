@@ -8,7 +8,7 @@ def dfs(self,node,ans,visited):
         return ans
             
     #Function to return a list containing the DFS traversal of the graph.
-    def dfsOfGraph(self, V, adj):
+def dfsOfGraph(self, V, adj):
         # code here
         visited=[0] * V
         visited[0] = 1
